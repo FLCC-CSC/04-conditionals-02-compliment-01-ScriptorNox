@@ -1,8 +1,9 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Asia Cansler
+# DATE: October 6, 2025
+# BRIEF DESCRIPTION: User is prompted whether they want a compliment or not.
+
 
 
 
@@ -14,9 +15,18 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+def main():
+    compliment()
 
+def compliment():
+    choice = input('Would you like a compliment? ')
 
+    if choice == 'yes':
+        print('You have wonderful eyes.')
 
+    print('Thank you for playing.')
+
+main()
 
 
 
@@ -66,11 +76,13 @@ Thank you for playing.
 '''
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
-
+I would rate this a 5.
 
 
 
 2. What was the hardest part of this lab?
+The hardest part was making sure my tabs were correct.
+My code was correct I didn't get the right output because my tabs were not lined up properly.
 
 
 
